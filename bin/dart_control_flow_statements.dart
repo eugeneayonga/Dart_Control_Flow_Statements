@@ -10,6 +10,8 @@ import 'package:dart_control_flow_statements/dart_break_continue_statement.dart'
     as dart_break_continue_statement;
 import 'package:dart_control_flow_statements/dart_switch_case_statement.dart'
     as dart_switch_case_statement;
+import 'package:dart_control_flow_statements/dart_try_throw_catch_finally_statements.dart'
+    as dart_try_throw_catch_finally_statements;
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_control_flow_statements.calculate()}!');
@@ -38,4 +40,9 @@ void main(List<String> arguments) {
       '**********************************************************************');
 
   dart_switch_case_statement.main(arguments);
+
+  print(
+      '**********************************************************************');
+
+  dart_try_throw_catch_finally_statements.main(arguments);
 }
