@@ -16,9 +16,9 @@ void alcoholELigibility() {
 
 // SHORT-FORM IF-ELSE STATEMENT
 void drivingEligibility() {
-  var age = 16;
+  var age = 15;
 
   age < 16
-      ? ('You are not allowed to drive in the US')
+      ? print('You are not allowed to drive in the US')
       : print('You are allowed to drive in the US');
 }
